@@ -1,6 +1,8 @@
 def call() {
     pipeline {
-        agent any
+        agent {
+			label 'linux-slave'
+		}
         stages {
             stage('Build') {
                 steps {
