@@ -12,7 +12,7 @@ def call() {
             stage('Test') {
                 steps {
                     echo 'Testing update...'
-					sh "sudo docker run hello-world"
+					sh "docker run hello-world"
                 }
             }
         }
