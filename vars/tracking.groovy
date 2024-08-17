@@ -9,7 +9,7 @@ def call() {
             }
             stage('Test') {
                 steps {
-                    echo 'Testing...'
+                    echo 'Testing update...'
                 }
             }
         }
